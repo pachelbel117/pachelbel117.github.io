@@ -1,0 +1,88 @@
+html, body {
+  background: #fff; /* DONE */
+  font-family: 'Raleway', sans-serif; /* DONE */
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.body-wrap {
+  margin: 0 auto;
+  width: 800px;
+}
+
+h1 {
+  display: inline-block;
+  margin: 0;
+}
+
+section {
+  margin: 0 auto;
+  padding: 20px 20px 0 20px;
+  width: 800px;
+}
+
+.more-info {
+  padding-bottom: 20px;
+}
+
+.send-money {
+  padding-bottom: 20px;
+}
+
+.receive {
+  padding-bottom: 20px;
+}
+
+h2 {
+  color: black;
+  display: block;
+  margin: 0;
+  padding: 10px 0;
+  width: 100%;
+}
+
+h3 {
+  border-radius: 100%;
+}
+
+nav {
+  background-color: #E04A50;
+  text-align: center;
+  color: white;
+}
+
+nav p {
+  display: inline-block;
+  margin: 0 0 0 10px;
+}
+
+/* Nav */
+
+footer {
+  background: #1A1626;
+  color: white;
+  padding: 20px;
+}
+
+/* Footer */
+
+footer {
+  height: 30px;
+  margin-top: 20px;
+  padding: 0 20px;
+}
+
+footer p {
+  font-size: 12px;
+  line-height: 30px;
+  margin: 0;
+}
+
