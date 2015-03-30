@@ -18,14 +18,12 @@ html, body {
   color: white;
   position: relative;
   display: block;
-  
 }
 
 .hero img {
   opacity: 0.2;
   width: 800px;
   display: block;
-  
 }
 
 .hero-text {
@@ -34,7 +32,6 @@ html, body {
   transform: translateY(-50%);
   width: 100%;
   text-align: center;
-
 }
 
 .hero h1 {
@@ -56,7 +53,12 @@ main {
 
 .more-info h2 {
   padding: 3px;
+  color: black;
+  display: block;
+  margin: 0;
+  width: 100%;
 }
+
 
 .more-info p {
   font-size: 0.65em;
@@ -64,7 +66,22 @@ main {
 }
 
 .col {
-  
+  margin: 35px 90px 17px;
+}
+
+.send-money {
+  float: left;
+  width: 33%;
+}
+
+.receive {
+  display: inline-block;
+  width: 33%;
+}
+
+.repeat {
+  float: right;
+  width: 33%;
 }
 
 .fa {
@@ -73,6 +90,7 @@ main {
 
 .hover {
   display: inline-block;
+  width: 150px;
 }
 
 .hover p {
@@ -81,7 +99,7 @@ main {
 
 .hover:hover p {
   visibility: visible;
-  font-size: 0.57em;
+  font-size: 0.54em;
 }
 
 .circle {
@@ -92,14 +110,6 @@ main {
   height: 150px;
   text-align: center;
   display: inline-block;
-}
-
-h2 {
-  color: black;
-  display: block;
-  margin: 0;
-  padding: 10px 0;
-  width: 100%;
 }
 
 h3 {
@@ -114,13 +124,13 @@ footer {
   background: #1A1626;
   color: white;
   padding: 20px;
-  height: 30px;
-  margin-top: 20px;
+  height: 20px;
+  margin: 20px 0 0;
   padding: 0 20px;
 }
 
 footer p {
-  font-size: 12px;
-  line-height: 30px;
+  font-size: 0.48em;
+  line-height: 20px;
   margin: 0;
 }
