@@ -1,32 +1,78 @@
+/* BODY */
 html, body {
   background: #fff; /* DONE */
   font-family: 'Raleway', sans-serif; /* DONE */
   margin: 0;
-  padding: 0;
-}
-
-html {
-  box-sizing: border-box;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
 }
 
 .body-wrap {
-  margin: 0 auto;
   width: 800px;
+  margin: 0 auto;
 }
 
-h1 {
-  display: inline-block;
+
+
+/* HERO */
+.hero {
+  background-color: #E04A50;
+  color: white;
+  position: relative;
+  display: block;
+  
+}
+
+.hero img {
+  opacity: 0.2;
+  width: 800px;
+  display: block;
+  
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+
+}
+
+.hero h1 {
+  font-size: 2.4em;
   margin: 0;
 }
 
-section {
-  margin: 0 auto;
-  padding: 20px 20px 0 20px;
-  width: 800px;
+.hero p {
+  font-size: 0.67em;
+}
+
+
+
+/* MAIN */
+main {
+  margin: 30px 0 0 0;
+  text-align: center;
+}
+
+.more-info h2 {
+  padding: 3px;
+}
+
+.more-info p {
+  font-size: 0.65em;
+  margin: 0;
+}
+
+.col {
+  
+}
+
+.fa {
+  color: #bbb;
+}
+
+.hover {
+  display: inline-block;
 }
 
 .hover p {
@@ -35,6 +81,7 @@ section {
 
 .hover:hover p {
   visibility: visible;
+  font-size: 0.57em;
 }
 
 .circle {
@@ -44,24 +91,7 @@ section {
   width: 150px;
   height: 150px;
   text-align: center;
-  padding-top: ;
-}
-
-nav img {
-  opacity: 0.2;
-  display: block;
-}
-
-.more-info {
-  padding-bottom: 20px;
-}
-
-.send-money {
-  padding-bottom: 20px;
-}
-
-.receive {
-  padding-bottom: 20px;
+  display: inline-block;
 }
 
 h2 {
@@ -74,36 +104,16 @@ h2 {
 
 h3 {
   border-radius: 100%;
+  font-size: 0.8em;
 }
 
-nav {
-  background-color: #E04A50;
-  text-align: center;
-  color: white;
-  position: relative;
-}
 
-nav p {
-  display: inline-block;
-  margin: 0 0 0 10px;
-}
 
-.header {
-  position: absolute;
-  top: 50%;
-}
-
-/* Nav */
-
+/* FOOTER */
 footer {
   background: #1A1626;
   color: white;
   padding: 20px;
-}
-
-/* Footer */
-
-footer {
   height: 30px;
   margin-top: 20px;
   padding: 0 20px;
@@ -114,4 +124,3 @@ footer p {
   line-height: 30px;
   margin: 0;
 }
-
