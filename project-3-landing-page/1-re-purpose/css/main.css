@@ -29,6 +29,29 @@ section {
   width: 800px;
 }
 
+.hover p {
+  visibility: hidden;
+}
+
+.hover:hover p {
+  visibility: visible;
+}
+
+.circle {
+  border-radius: 100%;
+  background-color: #eee;
+  border: 1px solid #ddd;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  padding-top: ;
+}
+
+nav img {
+  opacity: 0.2;
+  display: block;
+}
+
 .more-info {
   padding-bottom: 20px;
 }
@@ -57,11 +80,17 @@ nav {
   background-color: #E04A50;
   text-align: center;
   color: white;
+  position: relative;
 }
 
 nav p {
   display: inline-block;
   margin: 0 0 0 10px;
+}
+
+.header {
+  position: absolute;
+  top: 50%;
 }
 
 /* Nav */
