@@ -58,15 +58,16 @@ main {
   margin: 0;
   width: 100%;
 }
-/* .columns width:100%; .col width:33%; float:left; */
 
 .more-info p {
   font-size: 0.65em;
   margin: 0;
 }
 
+/* .columns width:100%; .col width:33%; float:left; */
 .col {
   margin: 35px 90px 17px;
+  /* width: 100%; */
 }
 
 .send-money {
@@ -91,6 +92,8 @@ main {
 .hover {
   display: inline-block;
   width: 150px;
+  /* width: 33%;
+  float: left; */
 }
 
 .hover p {
