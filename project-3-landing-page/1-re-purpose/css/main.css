@@ -58,7 +58,7 @@ main {
   margin: 0;
   width: 100%;
 }
-
+/* .columns width:100%; .col width:33%; float:left; */
 
 .more-info p {
   font-size: 0.65em;
