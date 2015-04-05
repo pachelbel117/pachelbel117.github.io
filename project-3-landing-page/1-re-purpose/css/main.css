@@ -6,7 +6,7 @@ html, body {
 }
 
 .body-wrap {
-  width: 800px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -14,18 +14,21 @@ html, body {
 
 /* HERO */
 .hero {
-  background-color: #E04A50;
   color: white;
+  background-image: url("../img/bg.jpg");
+  background-size: 100%;
+  height: 654px;
   position: relative;
   display: block;
 }
 
-.hero img {
-  opacity: 0.2;
-  width: 800px;
+.hero-image {
+  background-color: rgba(224,74,80,.8);
+  width: 100%;
+  height: 100%;
   display: block;
 }
-
+ 
 .hero-text {
   position: absolute;
   top: 50%;
@@ -51,6 +54,11 @@ main {
   text-align: center;
 }
 
+.col p {
+  display: inline-block;
+  width: 150px;
+}
+
 .more-info h2 {
   padding: 3px;
   color: black;
@@ -65,9 +73,20 @@ main {
 }
 
 /* .columns width:100%; .col width:33%; float:left; */
-.col {
-  margin: 35px 90px 17px;
+.columns {
+  /* margin: 35px 90px 17px; */
   /* width: 100%; */
+}
+
+.columns {
+  width: 100%;
+  overflow: hidden;
+}
+
+.col {
+  width: 33%;
+  float: left;
+  margin-top: 50px;
 }
 
 .send-money {
@@ -90,8 +109,7 @@ main {
 }
 
 .hover {
-  display: inline-block;
-  width: 150px;
+
   /* width: 33%;
   float: left; */
 }
@@ -112,7 +130,9 @@ main {
   width: 150px;
   height: 150px;
   text-align: center;
-  display: inline-block;
+  clear: both;
+  display: block;
+  margin: 0 auto;
 }
 
 h3 {
