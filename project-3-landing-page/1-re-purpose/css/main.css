@@ -113,17 +113,20 @@ main {
   font-weight: 600;
   color: #666;
   width: 180px;
-  opacity: 0;
-/*transition: opacity 500ms;
+  /* opacity: 0; [disabled to use animation]
+  transition: opacity 500ms;
   -webkit-transition: opacity 500ms;
   -moz-transition: opacity 500ms;
   -o-transition: opacity 500ms; */
   animation: fade-in 500ms;
+  -webkit-animation: fade-in 500ms;
+  -moz-animation: fade-in 500ms;
+  -o-animation: fade-in 500ms;
 }
 
 .hover:hover p {
   visibility: visible;
-  opacity: 1;
+  /* opacity: 1; disabled to use animation */
 }
 
 .circle {
