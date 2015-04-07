@@ -69,16 +69,9 @@ main {
   margin: 0;
 }
 
-<<<<<<< HEAD
 .columns {
   width: 100%;
   overflow: hidden;
-=======
-/* test edit => .columns width:100%; .col width:33%; float:left; */
-.col {
-  margin: 35px 90px 17px;
-  /* width: 100%; */
->>>>>>> origin/master
 }
 
 .col {
