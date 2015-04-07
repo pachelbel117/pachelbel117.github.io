@@ -95,7 +95,7 @@ main {
 }
 
 /* ANIMATION */
-@keyframe fade-in {
+/* @keyframe fade-in {
   0%: {
     opacity: 0;
   }
@@ -105,7 +105,7 @@ main {
   100%: {
     opacity: 1;
   }
-}
+} */
 
 .hover p {
   visibility: hidden;
@@ -113,20 +113,22 @@ main {
   font-weight: 600;
   color: #666;
   width: 180px;
-  /* opacity: 0; [disabled to use animation]
+  /* animation: fade-in 500ms;
+  -webkit-animation: fade-in 500ms;
+  -moz-animation: fade-in 500ms;
+  -o-animation: fade-in 500ms; */
+  opacity: 0;
   transition: opacity 500ms;
   -webkit-transition: opacity 500ms;
   -moz-transition: opacity 500ms;
-  -o-transition: opacity 500ms; */
-  animation: fade-in 500ms;
-  -webkit-animation: fade-in 500ms;
-  -moz-animation: fade-in 500ms;
-  -o-animation: fade-in 500ms;
+  -o-transition: opacity 500ms;
+ 
 }
 
 .hover:hover p {
   visibility: visible;
-  /* opacity: 1; disabled to use animation */
+  opacity: 1;
+  
 }
 
 .circle {
@@ -171,4 +173,25 @@ footer p {
   line-height: 25px;
   font-weight: 600;
   margin: 0;
+}
+
+
+
+/* MEDIA QUERIY */
+@media (max-width: 767px) {
+  .hero h1 {
+    font-size: 3.4em;
+  }
+  .hero p {
+    font-size: 1.6em;
+    font-weight: 500;
+    margin: 0 40px;
+  }
+  .hero h1 {
+    font-size: 3.7em;
+    margin: 0;
+  }
+  .hero p {
+    display: none;
+  }
 }
