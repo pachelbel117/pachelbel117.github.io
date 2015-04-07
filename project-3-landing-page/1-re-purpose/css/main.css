@@ -179,21 +179,34 @@ footer p {
 
 /* MEDIA QUERIY */
 @media (max-width: 767px) {
+  .hero {
+    color: white;
+    background-image: url("../img/bg-resize-mobile.jpg");
+    background-size: 100%;
+    height: 916px; /*#*#*#*#* was 654px *#*#*#*#*/
+    width: 768px;
+    position: relative;
+    display: block;
+  }
+
   .hero h1 {
     font-size: 3.4em;
     margin-bottom: 40px;
   }
   .hero p {
-    font-size: 1.6em;
-    font-weight: 500;
-    margin: 0 40px;
+    font-size: 1.7em;
+    font-weight: 400;
+    margin: 0 44px;
+  }
+  .hero p strong {
+    font-weight: 700;
   }
   .more-info h2 {
     font-size: 2.8em;
     padding: 0px;
     display: block;
-    margin: 16% 0% 0%;
-    width: 100%;
+    margin: 16% auto 1%;
+    width: 80%;
     flex-wrap: wrap;
   }
   .more-info p {
@@ -207,7 +220,8 @@ footer p {
   .hover p {
     font-size: 1.7em;
     font-weight: 500;
-    width: 90%;
+    width: 85%;
+    text-align: left;
   }
   .circle {
     width: 360px;
@@ -218,26 +232,34 @@ footer p {
     margin: 0 auto;
   }
   .fa {
-    font-size: 4.7em;
+    font-size: 50px;
     line-height: 2.1em;
   }
   h3 {
-    font-size: 0.95em;
-    font-weight: 800;
+    font-size: 2em;
+    font-weight: 700;
     position: relative;
-    top: -50px;
+    top: -90px;
+  }
+  .send-money {
+    position: relative;
+    left: 0px;
+  }
+  .repeat {
+    position: relative;
+    right: 0px;
   }
   footer {
     padding: 20px;
     height: 10vh;
-    margin: 30px 0 0;
+    margin: 120px 0 0;
     padding: 0 70px;
   }
 
   footer p {
     font-size: 1.5em;
     line-height: 62px;
-    font-weight: 600;
+    font-weight: 500;
     margin: 0;
   }
 }
