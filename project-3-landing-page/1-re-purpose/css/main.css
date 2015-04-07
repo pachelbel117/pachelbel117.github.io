@@ -94,6 +94,19 @@ main {
   display: inline-block;
 }
 
+/* ANIMATION */
+@keyframe fade-in {
+  0%: {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100%: {
+    opacity: 1;
+  }
+}
+
 .hover p {
   visibility: hidden;
   font-size: 0.70em;
@@ -101,10 +114,11 @@ main {
   color: #666;
   width: 180px;
   opacity: 0;
-  transition: opacity 500ms;
+/*transition: opacity 500ms;
   -webkit-transition: opacity 500ms;
   -moz-transition: opacity 500ms;
-  -o-transition: opacity 500ms;
+  -o-transition: opacity 500ms; */
+  animation: fade-in 500ms;
 }
 
 .hover:hover p {
