@@ -1,7 +1,7 @@
 /* BODY */
 html, body {
-  background: #fff; /* DONE */
-  font-family: 'Raleway', sans-serif; /* DONE */
+  background: #fff;
+  font-family: 'Raleway', sans-serif;
   margin: 0;
 }
 
@@ -192,6 +192,17 @@ footer p {
     margin: 0;
   }
   .hero p {
+    display: none;
+  }
+  .more-info h2 {
+    font-size: 2.8em;
+    padding: 3px;
+    display: block;
+    margin: 17% 8% 0%;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .more-info p {
     display: none;
   }
 }
