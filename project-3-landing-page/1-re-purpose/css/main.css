@@ -94,20 +94,22 @@ main {
   display: inline-block;
 }
 
-.hover {
-  transition: visibility 500ms; /*#*#*#* not working *#*#*#*/
-}
-
 .hover p {
   visibility: hidden;
-}
-
-.hover:hover p {
-  visibility: visible;
   font-size: 0.70em;
   font-weight: 600;
   color: #666;
   width: 180px;
+  opacity: 0;
+  transition: opacity 500ms;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+}
+
+.hover:hover p {
+  visibility: visible;
+  opacity: 1;
 }
 
 .circle {
