@@ -181,28 +181,64 @@ footer p {
 @media (max-width: 767px) {
   .hero h1 {
     font-size: 3.4em;
+    margin-bottom: 40px;
   }
   .hero p {
     font-size: 1.6em;
     font-weight: 500;
     margin: 0 40px;
   }
-  .hero h1 {
-    font-size: 3.7em;
-    margin: 0;
-  }
-  .hero p {
-    display: none;
-  }
   .more-info h2 {
     font-size: 2.8em;
     padding: 3px;
     display: block;
-    margin: 17% 8% 0%;
+    margin: 16% 8% 0%;
     width: 100%;
     flex-wrap: wrap;
-  }
   .more-info p {
+  }
     display: none;
   }
+  .col {
+    width: 100%;
+    margin-top: 50px;
+    position: relative;
+  }
+  .hover p {
+    font-size: 0.70em;
+    font-weight: 600;
+    width: 46%;
+  }
+  .circle {
+    width: 360px;
+    height: 360px;
+    text-align: center;
+    clear: both;
+    display: block;
+    margin: 0 auto;
+  }
+  .fa {
+    font-size: 4.7em;
+    line-height: 2.1em;
+  }
+  h3 {
+    font-size: 0.95em;
+    font-weight: 800;
+    position: relative;
+    top: -50px;
+  }
+  footer {
+    padding: 20px;
+    height: 27px;
+    margin: 30px 0 0;
+    padding: 0 50px;
+  }
+
+  footer p {
+    font-size: 0.55em;
+    line-height: 25px;
+    font-weight: 600;
+    margin: 0;
+  }
 }
+
