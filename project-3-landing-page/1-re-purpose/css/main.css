@@ -220,28 +220,29 @@ footer p {
     position: relative;
   }
   .hover p {
+    visibility: visible;
     font-size: 1.6em;
     font-weight: 500;
     width: 85%;
     text-align: left;
   }
   .circle {
-    width: 360px;
-    height: 360px;
+    width: 260px;
+    height: 260px;
     text-align: center;
     clear: both;
     display: block;
     margin: 0 auto;
   }
   .fa {
-    font-size: 8em;
+    font-size: 6em;
     line-height: 2.1em;
   }
   h3 {
-    font-size: 1.75em;
+    font-size: 1.3em;
     font-weight: 800;
     position: relative;
-    top: -80px;
+    top: -60px;
   }
   .send-money {
     position: relative;
