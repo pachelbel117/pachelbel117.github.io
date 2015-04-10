@@ -123,13 +123,11 @@ main {
   -webkit-transition: opacity 500ms;
   -moz-transition: opacity 500ms;
   -o-transition: opacity 500ms;
- 
 }
 
 .hover:hover p {
   visibility: visible;
   opacity: 1;
-  
 }
 
 .circle {
@@ -221,6 +219,7 @@ footer p {
   }
   .hover p {
     visibility: visible;
+    opacity: 1;
     font-size: 1.6em;
     font-weight: 500;
     width: 85%;
@@ -253,17 +252,16 @@ footer p {
     right: 0px;
   }
   footer {
-    padding: 20px;
+    padding: 5vh;
     height: 10vh;
-    margin: 110px 0 0;
-    padding: 0 70px;
+    margin: 5vh 0 0;
+    padding: 0;
   }
-
   footer p {
-    font-size: 1.5em;
+    font-size: 1em;
     line-height: 62px;
     font-weight: 500;
-    margin: 0;
+    margin: 0 5%;
   }
 }
 
