@@ -1,3 +1,4 @@
+/************** HOME PAGE ***************/
 /* BODY */
 html, body {
   background: #fff;
@@ -201,8 +202,22 @@ footer p {
 
 
 
-/* MEDIA QUERIY */
+/************** VIDEO (ABOUT) PAGE ***************/
+.hero {
+  background-image: none;
+}
+header h2, p, nav, ul, li{
+  display: inline-block;
+}
+
+
+/************** CONTACT PAGE ***************/
+
+
+
+/* ############### MEDIA QUERY ############### */
 @media (max-width: 767px) {
+  /* HOME PAGE */
   .hero {
     color: white;
     background-image: url("../img/bg-resize-mobile.jpg");
@@ -288,5 +303,6 @@ footer p {
     font-weight: 500;
     margin: 0 0 0 10%;
   }
+  /* VIDEO (ABOUT) PAGE */
+  /* CONTACT PAGE */
 }
-
