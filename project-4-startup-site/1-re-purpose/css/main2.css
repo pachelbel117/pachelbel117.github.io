@@ -47,6 +47,27 @@ html, body {
   font-size: 0.95em;
 }
 
+.subscribe {
+  margin: 0 auto;
+}
+
+.hero input {
+  height: 30px;
+  padding: 0 10px;
+  width: 300px;
+  border: none;
+}
+
+.hero button {
+  height: 32px;
+  color: #fff;
+  background-color: #222;
+  border: none;
+  font-size: 0.65em;
+  padding: 0 16px;
+  border-radius: 2px;
+}
+
 
 
 /* MAIN */
