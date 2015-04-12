@@ -204,7 +204,7 @@ footer p {
 
 /************** VIDEO (ABOUT) PAGE ***************/
 .hero {
-  background-image: none;
+  /* background-image: none; */
 }
 header h2, p, nav, ul, li{
   display: inline-block;
