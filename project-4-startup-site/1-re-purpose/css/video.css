@@ -69,11 +69,18 @@ header {
 .hero button {
   height: 32px;
   color: #fff;
-  background-color: #222;
   border: none;
   font-size: 0.65em;
   padding: 0 16px;
   border-radius: 2px;
+  background: #121212; /* Old browsers */
+  background: -moz-linear-gradient(left,  #121212 0%, #51555b 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,#121212), color-stop(100%,#51555b)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left,  #121212 0%,#51555b 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left,  #121212 0%,#51555b 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left,  #121212 0%,#51555b 100%); /* IE10+ */
+  background: linear-gradient(to right,  #121212 0%,#51555b 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#121212', endColorstr='#51555b',GradientType=1 ); /* IE6-9 */
 }
 
 
@@ -186,6 +193,13 @@ h3 {
   font-weight: 800;
   position: relative;
   top: -50px;
+}
+
+
+
+/* FOOTER */
+.testimonials {
+  /* will use :nth-child(odd) and :nth-child(even);
 }
 
 
