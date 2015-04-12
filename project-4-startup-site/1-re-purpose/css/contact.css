@@ -10,6 +10,19 @@ html, body {
   margin: 0;
 }
 
+header h2, p, nav, ul, li{
+  display: inline-block;
+}
+
+header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 2;
+  background-color: rgb(224,74,80);
+}
+
 
 
 /* HERO */
@@ -22,7 +35,7 @@ html, body {
   display: block;
 }
 
-.hero-image {
+.hero-video {
   background-color: rgba(224,74,80,.8);
   width: 100%;
   height: 100%;
