@@ -1,3 +1,7 @@
+FONTS
+"Special Elite" and "Playfair Display"
+
+
 Description: Please help our restaurant build an elegant new website to showcase our Mexican cuisine!
 
 Requirements: The top of the page should have a video background that is FIXED. As you scroll, the menu should roll over it. There should be a sticky navigation at the top to get to the different parts of the website. Under the location, it should have a Google Map with our location pinned. The website should use a responsive Bootstrap grid. On mobile, the menu columns, google map, and our story should all stack.

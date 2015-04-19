@@ -1,3 +1,4 @@
+/* ########## HOME PAGE ########## */
 /* BODY */
 html, body {
   background: #fff;
@@ -51,21 +52,30 @@ html, body {
   margin: 0 auto;
 }
 
-.hero input {
+#mc_embed_signup_scroll div {
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+input {
   height: 32px;
   padding: 0 10px;
   width: 300px;
   border: none;
+  margin-top: 30px;
 }
 
-.hero button {
+.button {
   height: 32px;
+  width: 80px;
   color: #fff;
   background-color: #222;
   border: none;
   font-size: 0.65em;
   padding: 0 16px;
   border-radius: 2px;
+  margin-left: -4px;
 }
 
 
@@ -120,29 +130,12 @@ main {
   display: inline-block;
 }
 
-/* ANIMATION */
-/* @keyframe fade-in {
-  0%: {
-    opacity: 0;
-  }
-  50% {
-    opacity: 0.5;
-  }
-  100%: {
-    opacity: 1;
-  }
-} */
-
 .hover p {
   visibility: hidden;
   font-size: 0.70em;
   font-weight: 600;
   color: #444;
   width: 180px;
-  /* animation: fade-in 500ms;
-  -webkit-animation: fade-in 500ms;
-  -moz-animation: fade-in 500ms;
-  -o-animation: fade-in 500ms; */
   opacity: 0;
   transition: opacity 500ms;
   -webkit-transition: opacity 500ms;
@@ -201,9 +194,104 @@ footer p {
 
 
 
+/* ########## VIDEO (ABOUT) & CONTACT PAGE ########## */
+/* HEADER */
+header h2, p, nav, ul, li{
+  display: inline-block;
+  max-width: 800px;
+  margin: 0;
+}
+
+header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 2;
+  background-color: rgb(224,74,80);
+  color: white;
+  font-size: 0.55em;
+  line-height: 25px;
+  font-weight: 600;
+}
+
+header h2 {
+  position: relative;
+  left: 10%;
+}
+
+header p {
+  position: relative;
+  left: 11%;
+}
+
+nav {
+  position: relative;
+  float: right;
+  right: 10%;
+}
+header li {
+  margin-left: 7px;
+}
+
+
+
+/* ########## VIDEO (ABOUT) PAGE ########## */
+/* HERO */
+.page-video .hero {
+  background-image: none;
+}
+
+.page-video .hero-video {
+  background-color: #111;
+  width: 100%;
+  height: 100%;
+  display: block;
+  box-shadow: 0 -10px 30px -10px #444 inset;
+}
+
+.page-video .hero button {
+  background: #121212; /* Old browsers */
+  background: -moz-linear-gradient(left,  #121212 0%, #51555b 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,#121212), color-stop(100%,#51555b)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left,  #121212 0%,#51555b 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left,  #121212 0%,#51555b 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left,  #121212 0%,#51555b 100%); /* IE10+ */
+  background: linear-gradient(to right,  #121212 0%,#51555b 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#121212', endColorstr='#51555b',GradientType=1 ); /* IE6-9 */
+}
+
+/* MAIN */
+
+
+
+/* FOOTER */
+.testimonials {
+  /* will use :nth-child(odd) and :nth-child(even); */
+}
+
+
+
+/* ########## CONTACT PAGE ########## */
+/* HEADER */
+
+
+
+/* HERO */
+
+
+
+/* MAIN */
+
+
+
+/* FOOTER */
+
+
+
 /********** MEDIA QUERY **********/
 @media (max-width: 767px) {
-  /* HOME PAGE */
+  /* ########## HOME PAGE ########## */
   .hero {
     color: white;
     background-image: url("../img/bg-resize-mobile.jpg");
@@ -289,6 +377,6 @@ footer p {
     font-weight: 500;
     margin: 0 0 0 10%;
   }
-  /* VIDEO (ABOUT) PAGE */
-  /* CONTACT PAGE */
+  /* ########## VIDEO (ABOUT) PAGE ########## */
+  /* ########## CONTACT PAGE ########## */
 }
