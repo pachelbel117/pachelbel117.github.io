@@ -82,9 +82,10 @@ input {
 
 /* MAIN */
 main {
-  margin: 30px 0 0 0;
+  margin: 30px auto 0;
   text-align: center;
   color: #111;
+  max-width: 800px;
 }
 
 .more-info h2 {
@@ -116,18 +117,20 @@ main {
   margin-top: 50px;
 }
 
-.send-money {
+/*.send-money {
   position: relative;
   left: 55px;
-}
+}*/
 
 .repeat {
-  position: relative;
-  right: 55px;
+  /*position: relative;
+  right: 55px;*/
 }
 
 .col p {
+  margin-top: 10px;
   display: inline-block;
+  float: left;
 }
 
 .hover p {
@@ -157,7 +160,7 @@ main {
   text-align: center;
   clear: both;
   display: block;
-  margin: 0 auto;
+  margin: 0;
 }
 
 .fa {
@@ -179,10 +182,8 @@ h3 {
 footer {
   background: #1A1626;
   color: white;
-  padding: 20px;
   height: 27px;
   margin: 30px 0 0;
-  padding: 0 150px;
 }
 
 footer p {
@@ -192,14 +193,24 @@ footer p {
   margin: 0;
 }
 
+/* FOOTER */
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 
 
 /* ########## VIDEO (ABOUT) & CONTACT PAGE ########## */
 /* HEADER */
 header h2, p, nav, ul, li{
   display: inline-block;
-  max-width: 800px;
   margin: 0;
+}
+
+.header-content {
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 header {
@@ -216,20 +227,18 @@ header {
 }
 
 header h2 {
-  position: relative;
-  left: 14%;
+  margin-right: 10px;
 }
 
 header p {
-  position: relative;
-  left: 15%;
+  
 }
 
 nav {
   position: relative;
   float: right;
-  right: 14%;
 }
+
 header li {
   margin-left: 7px;
 }
@@ -259,13 +268,31 @@ nav a {
 
 
 /* MAIN */
-.testimonials {
-  /* will use :nth-child(odd) and :nth-child(even); */
+.testimonials h1 {
+  text-align: left;
+  padding: 10px 0;
+
 }
 
+.testimonials .post {
+  /* will use :nth-child(odd) and :nth-child(even); */
+  background-color: #aaa;
+  max-width: 395px;
+  border-radius: 7px;
+  margin: 17px 0;
+}
 
+.column {
+  /*float: left;*/
+}
 
-/* FOOTER */
+.post img {
+  border-radius: 100%;
+  height: 50px;
+  float: left;
+  display: inline;
+  border: 1px solid #fff;
+}
 
 
 
@@ -279,10 +306,6 @@ nav a {
 
 
 /* MAIN */
-
-
-
-/* FOOTER */
 
 
 
