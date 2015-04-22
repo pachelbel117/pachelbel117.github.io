@@ -332,15 +332,21 @@ nav a {
 .page-contact .hero {
   height: 300px;
 }
+
 .page-contact h1 {
   font-size: 3.1em;
+}
+
+.maps {
+  width: 100%;
+  height: 530px;
 }
 
 
 
 /* MAIN */
-.maps {
-  width: 100%;
+main {
+  display: block;
 }
 
 
