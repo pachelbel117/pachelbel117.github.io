@@ -345,8 +345,38 @@ nav a {
 
 
 /* MAIN */
+body {
+  background-color: #f2f2f2;
+}
+
 main {
+  position: relative;
   display: block;
+  top: 460px;
+  max-width: 800px;
+  left: 0;
+  text-align: left;
+}
+
+.twitter h2 {
+  font-size: 1.2em;
+  font-style: bold;
+}
+
+.twitter {
+  max-width: 380px;
+}
+
+.follow {
+  position: relative;
+  top: -656px;
+  max-width: 380px;
+  left: 420px;
+  /*text-align: left;*/
+}
+
+.follow h2 {
+  font-size: 1.2em;
 }
 
 
