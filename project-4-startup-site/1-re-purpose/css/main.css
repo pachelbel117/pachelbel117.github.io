@@ -337,11 +337,6 @@ nav a {
   font-size: 3.1em;
 }
 
-.maps {
-  width: 100%;
-  height: 530px;
-}
-
 
 
 /* MAIN */
@@ -377,6 +372,23 @@ main {
 
 .follow h2 {
   font-size: 1.2em;
+}
+
+.maps {
+  width: 100%;
+  height: 530px;
+}
+
+.contact ul li {
+  margin: 0;
+  position: relative;
+  left: -40px;
+}
+
+.page-contact .fa {
+  font-size: 2em;
+  line-height: 1em;
+  letter-spacing: 0.4em;
 }
 
 
