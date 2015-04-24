@@ -1,5 +1,14 @@
 /* ########## HOME PAGE ########## */
+/* RESET */
+
+
+
 /* BODY */
+.contact ul {
+  -webkit-padding-start: 0;
+  list-style-type: none;
+}
+
 html, body {
   background: #fff;
   font-family: 'Raleway', sans-serif;
@@ -21,6 +30,7 @@ html, body {
   height: 635px;
   position: relative;
   display: block;
+  overflow: hidden;
 }
 
 .hero-image {
@@ -86,6 +96,7 @@ main {
   text-align: center;
   color: #111;
   max-width: 800px;
+  overflow: hidden;
 }
 
 .more-info h2 {
@@ -347,7 +358,7 @@ body {
 main {
   position: relative;
   display: block;
-  top: 460px;
+  /*top: 460px;*/
   max-width: 800px;
   left: 0;
   text-align: left;
@@ -382,8 +393,9 @@ main {
 .contact ul li {
   margin: 0;
   position: relative;
-  left: -40px;
 }
+
+
 
 .page-contact .fa {
   font-size: 2em;
