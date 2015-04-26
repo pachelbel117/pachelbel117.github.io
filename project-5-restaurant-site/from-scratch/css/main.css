@@ -52,17 +52,21 @@ table {
 /* GLOBAL */
 h1 {
 	font-family: 'Special Elite', cursive;
-	font-size: 3.6em;
+	font-size: 4em;
 }
 
 h2 {
 	font-family: 'Playfair Display', serif;
-	font-size: 1.9em;
+	font-size: 2.2em;
+	letter-spacing: 0.05em;
+	color: white;
 }
 
 h3 {
 	font-family: 'Special Elite', cursive;
 	color: #f50;
+	font-size: 0.9em;
+	margin-top: 25px;
 }
 
 h4 {
@@ -73,7 +77,8 @@ h4 {
 
 p {
 	font-family: 'Lato', sans-serif;
-	font-size: 0.9em;
+	font-size: 0.7em;
+	color: white;
 }
 
 li {
@@ -86,21 +91,44 @@ nav {
 	font-size: 1.2em;
 }
 
+span {
+	font-family: 'Special Elite', cursive;
+	font-size: 0.7em;
+	color: white;
+}
+
+body {
+	background-color: #e1e1e1;
+}
+
 
 
 /* HERO */
 .hero {
   background-size: 100%;
-  background-color: #888; /* TEMP */
   color: white;
-  height: 120vh;
   width: 100%;
-  text-align: center;
+  height: 639px;
+  position: fixed;
+  z-index: -1;
+}
+
+.hero-text {
+	max-width: 960px;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+	top: 319px;
+	transform: translateY(-50%);
+	color: white;
 }
 
 .hero nav {
-  position: fixed;
-  right: 0;
+  position: relative;
+  max-width: 960px;
+	margin: 0 auto;
+  text-align: right;
+  top: 0;
 }
 
 .hero li {
@@ -113,17 +141,52 @@ nav {
 	color: white;
 }
 
-.hero h1 {
+.hero-text h1 {
 	border-top: 1px solid;
 	border-bottom: 1px solid;
-	padding: 16px 8px 12px 8px;
+	padding: 19px 8px 12px 8px;
 	display: inline-block;
-	margin: 15px auto;
+	margin: 18px auto;
+}
+
+video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -2;
 }
 
 
 
 /* MENU */
+#menu {
+	position: relative;
+	top: 600px;
+	max-width: 960px;
+	margin: 0 auto 110px;
+	line-height: 1em;
+
+}
+
+#menu h2 {
+	margin-bottom: 45px;
+	border-bottom: 2px solid #ddd;
+	line-height: 1.5em;
+}
+
+.col-left {
+	max-width: 400px;
+	float: left;
+}
+
+.col-right {
+	max-width: 400px;
+	float: right;
+}
+
+#menu img {
+	margin: 15px 0 10px;
+}
 
 
 
@@ -131,6 +194,8 @@ nav {
 #location {
 	background-image: url("../img/bg.jpg");
   height: 515px;
+  position: relative;
+  top: 2300px;
   color: white;
 }
 
@@ -149,7 +214,9 @@ nav {
 /* OUR-STORY */
 #our-story {
   background-image: url("../img/blanket-crop.jpg");
-  height: 595px;
+  height: 536px;
+  position: relative;
+  top: 2300px;
   background-size: 100%;
 }
 
@@ -165,9 +232,9 @@ nav {
 }
 
 .story h2 {
-
+	color: black;
 }
 
 .story p {
-
+	color: black;
 }
