@@ -99,6 +99,10 @@ main {
   overflow: hidden;
 }
 
+.more-info {
+  text-align: center;
+}
+
 .more-info h2 {
   font-size: 2.1em;
   padding: 3px;
@@ -131,12 +135,12 @@ main {
 /* #@#@#@#@#@#@#@#FIX POSITIONING #@#@#@#@#@#@#@# */
 /*.send-money {
   position: relative;
-  left: 55px;
-}*/
+  left: 27px;
+}
 
-/*.repeat {
+.repeat {
   position: relative;
-  right: 55px;
+  right: 0px;
 }*/
 
 .col p {
@@ -301,6 +305,7 @@ nav a {
 .column {
   float: left;
   display: inline-block;
+  margin-bottom: 30px;
 }
 
 .post img {
@@ -395,12 +400,17 @@ main {
   position: relative;
 }
 
-
-
 .page-contact .fa {
   font-size: 2em;
   line-height: 1em;
   letter-spacing: 0.4em;
+}
+
+
+
+/* FOOTER */
+.page-contact footer {
+  margin: 0;
 }
 
 
