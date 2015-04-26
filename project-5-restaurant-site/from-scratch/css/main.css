@@ -59,7 +59,6 @@ h2 {
 	font-family: 'Playfair Display', serif;
 	font-size: 2.2em;
 	letter-spacing: 0.05em;
-	color: white;
 }
 
 h3 {
@@ -78,7 +77,6 @@ h4 {
 p {
 	font-family: 'Lato', sans-serif;
 	font-size: 0.7em;
-	color: white;
 }
 
 li {
@@ -94,11 +92,14 @@ nav {
 span {
 	font-family: 'Special Elite', cursive;
 	font-size: 0.7em;
-	color: white;
 }
 
 body {
-	background-color: #e1e1e1;
+	
+}
+
+section {
+	overflow: hidden;
 }
 
 
@@ -165,7 +166,7 @@ video {
 	max-width: 960px;
 	margin: 0 auto 110px;
 	line-height: 1em;
-
+	background-color: #e1e1e1;
 }
 
 #menu h2 {
@@ -195,7 +196,6 @@ video {
 	background-image: url("../img/bg.jpg");
   height: 515px;
   position: relative;
-  top: 2300px;
   color: white;
 }
 
@@ -209,14 +209,22 @@ video {
 	margin: 0 auto;
 }
 
+.columns {
+	max-width: 960px;
+	margin: 0 auto;
+}
 
+.col {
+	float: left;
+	max-width: 50%;
+	margin: 50px 0;
+}
 
 /* OUR-STORY */
 #our-story {
   background-image: url("../img/blanket-crop.jpg");
   height: 536px;
   position: relative;
-  top: 2300px;
   background-size: 100%;
 }
 
