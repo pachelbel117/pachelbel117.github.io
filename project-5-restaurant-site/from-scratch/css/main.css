@@ -94,6 +94,11 @@ span {
 	font-size: 0.7em;
 }
 
+body {
+	background-color: #e1e1e1;
+
+}
+
 section {
 	overflow: hidden;
 }
@@ -162,12 +167,16 @@ video {
 #menu {
 	position: relative;
 	top: 480px;
-	max-width: 960px;
-	height: 2150px;
+	height: 2190px;
 	background-color: #e1e1e1;
 	margin: 0 auto 110px;
+	padding-top: 75px;
 	line-height: 1em;
 	overflow: hidden;
+}
+
+.columns {
+	max-width: 960px;
 }
 
 .columns h2 {
@@ -195,36 +204,47 @@ video {
 /* LOCATION */
 #location {
 	background-image: url("../img/bg.jpg");
-  height: 515px;
+  height: 465px;
   position: relative;
   color: white;
 }
 
+.columns {
+	max-width: 960px;
+	margin: 57px auto;
+}
+
+.col-left {
+	float: left;
+	max-width: 440px;
+	/*margin: 50px 0;*/
+}
+
+.col-right {
+	float: right;
+	max-width: 440px;
+	/*margin: 50px 0;*/
+}
+
 #location h2 {
 	max-width: 960px;
-	margin: 0 auto;
+	margin: 0 auto 10px;
+	border: none;
+	font-size: 2em;
 }
 
 #location li {
 	max-width: 960px;
 	margin: 0 auto;
+	line-height: 1.3em;
 }
 
-.columns {
-	max-width: 960px;
-	margin: 0 auto;
-}
 
-.col {
-	float: left;
-	max-width: 50%;
-	margin: 50px 0;
-}
 
 /* OUR-STORY */
 #our-story {
   background-image: url("../img/blanket-crop.jpg");
-  height: 536px;
+  height: 525px;
   position: relative;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -232,19 +252,35 @@ video {
 
 .story {
 	background-color: #eee;
-	margin: 0 150px;
+	margin: 57px auto;
+	padding: 30px;
+	height: 350px;
+	width: 900px;
+}
+
+.story-left {
+	width: 350px;
+	float: left;
+}
+
+.story-right {
+	width: 499px;
+	float: right;
 }
 
 .story img {
 	position: relative;
-	float: right;
-
+/*	top: 30px;
+	right: 30px;*/
 }
 
 .story h2 {
 	color: black;
+	margin-bottom: 25px;
 }
 
 .story p {
 	color: black;
+	line-height: 1.4em;
+	margin-bottom: 8px;
 }
