@@ -96,7 +96,7 @@ span {
 
 body {
 	background-color: #e1e1e1;
-
+	z-index: 0;
 }
 
 section {
@@ -111,7 +111,7 @@ section {
   width: 100%;
   height: 639px;
   position: fixed;
-  z-index: 0;
+  /*z-index: 0;*/
 }
 
 .hero-text {
@@ -130,6 +130,11 @@ section {
 	margin: 0 auto;
   text-align: right;
   top: 0;
+  z-index: 2;
+}
+
+nav a:active {
+	color: #f50;
 }
 
 .hero li {
@@ -140,10 +145,6 @@ section {
 	text-decoration: none;
 	margin-left: 10px;
 	color: white;
-}
-
-a.active {
-	color: #f50;
 }
 
 .hero-text h1 {
