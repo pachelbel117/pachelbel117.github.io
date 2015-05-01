@@ -71,6 +71,7 @@ main {
   display: inline-block;
   min-height: 100vh;
   padding: 0 50px 40px;
+  width: 100%;
 }
 
 .contact {
