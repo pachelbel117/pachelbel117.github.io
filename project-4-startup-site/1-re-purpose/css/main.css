@@ -132,17 +132,6 @@ main {
   margin-top: 50px;
 }
 
-/* #@#@#@#@#@#@#@#FIX POSITIONING #@#@#@#@#@#@#@# */
-/*.send-money {
-  position: relative;
-  left: 27px;
-}
-
-.repeat {
-  position: relative;
-  right: 0px;
-}*/
-
 .col p {
   margin-top: 10px;
   display: inline-block;
@@ -335,7 +324,6 @@ nav a {
 
 
 
-/* #@#@#@#@#@#@#@# FIX POSITIONING #@#@#@#@#@#@#@# */
 /* FOOTER */
 .page-video .footer-content {
   
@@ -464,6 +452,8 @@ main {
     font-weight: 500;
     width: 85%;
     text-align: left;
+    margin-left: 5%;
+    margin-top: 20px;
   }
   .circle {
     width: 260px;
@@ -501,8 +491,56 @@ main {
     font-size: 1em;
     line-height: 62px;
     font-weight: 500;
-    margin: 0 0 0 10%;
+    margin: 0 0 0 5%;
+  }
+  /* ########## VIDEO (ABOUT) & CONTACT PAGE ########## */
+  .header-content {
+    margin: 0 5%;
+    display
+  }
+  header p {
+    display: none;
+  }
+  header h2 {
+    display: block;
+    font-size: 2.6em;
+  }
+  nav {
+    float: left;
+    left: -47px;
+    font-size: 2em;
   }
   /* ########## VIDEO (ABOUT) PAGE ########## */
+  .hero-video {
+
+  }
+  main {
+    margin-top: 10px;
+  }
+  .testimonials {
+    margin: 0 5%;
+  }
+  .testimonials h1 {
+    margin: 0;
+  }
+  .testimonials .post {
+    max-width: 90%;
+    margin: 15px auto;
+  }
   /* ########## CONTACT PAGE ########## */
+  .hero h1 {
+    font-size: 2.4em;
+  }
+  .twitter, .follow {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  .follow {
+    position: static;
+    left: 0;
+    margin: 4% 10%;
+  }
+  .follow h2 {
+    font-size: 1.8em;
+  }
 }
