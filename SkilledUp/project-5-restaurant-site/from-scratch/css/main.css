@@ -97,10 +97,47 @@ span {
 body {
 	background-color: #e1e1e1;
 	z-index: 0;
+	/*overflow: hidden;*/
 }
 
 section {
 	overflow: hidden;
+}
+
+
+
+/* NAVIGATION */
+.navigation {
+	position: relative;
+	width: 100%;
+}
+
+nav {
+  position: relative;
+  right: 0px;
+	width: 100%;
+	max-width: 960px;
+	margin: 0px auto;
+  z-index: 9999;
+}
+
+nav ul {
+	text-align: right;
+	position: fixed;
+}
+
+nav a:active {
+	color: #f50;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	text-decoration: none;
+	margin-left: 10px;
+	color: white;
 }
 
 
@@ -111,6 +148,7 @@ section {
   width: 100%;
   height: 639px;
   position: fixed;
+  top: 0;
   /*z-index: 0;*/
 }
 
@@ -121,34 +159,6 @@ section {
 	position: relative;
 	top: 290px;
 	transform: translateY(-50%);
-	color: white;
-}
-
-nav {
-  position: fixed;
-  display: block;
-  max-width: 960px;
-  width: 100%;
-	margin: 0 auto;
-  top: 0;
-  z-index: 9999;
-}
-
-nav ul {
-	text-align: right;
-}
-
-nav a:active {
-	color: #f50;
-}
-
-nav li {
-	display: inline;
-}
-
-nav a {
-	text-decoration: none;
-	margin-left: 10px;
 	color: white;
 }
 
