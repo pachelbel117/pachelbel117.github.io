@@ -124,8 +124,8 @@ section {
 	color: white;
 }
 
-.hero nav {
-  position: relative;
+nav {
+  position: fixed;
   max-width: 960px;
 	margin: 0 auto;
   text-align: right;

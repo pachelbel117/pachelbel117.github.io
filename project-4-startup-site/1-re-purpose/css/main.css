@@ -506,6 +506,7 @@ main {
     font-size: 2.6em;
   }
   nav {
+    /*position: fixed;*/
     float: left;
     left: -47px;
     font-size: 2em;

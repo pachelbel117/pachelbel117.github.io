@@ -88,8 +88,10 @@ main {
 
 .contact {
   font-size: 0.9em;
-  margin-left: 100px;
+  /*margin-left: 100px;*/
   padding-top: -50;
+  text-align: center;
+  width: 100%;
 }
 
 .profile {
